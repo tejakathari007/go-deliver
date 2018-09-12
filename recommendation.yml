@@ -1,14 +1,19 @@
-#spring.data.neo4j.username = neo4j
-#spring.data.neo4j.password = root123
-#spring.data.neo4j.uri=bolt://localhost
 
-server.port= 8092
-spring.application.name=recommendation
-
-spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
-
-management.endpoints.web.exposure.include=*
-
-eureka.client.serviceUrl.defaultZone=http://172.23.239.100:8761/eureka
-eureka.client.register-with-eureka=true
-eureka.client.fetch-registry=true
+server:
+  port: "8092"
+spring:
+  application:
+    name: recommendation
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.23.239.100:8761/eureka
+    register-with-eureka: "true"
+    fetch-registry: "true"
