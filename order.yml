@@ -1,17 +1,22 @@
-#server properties
-spring.application.name=order
 
-#mongo properties
-spring.data.mongodb.database=order-details
-spring.data.mongodb.host=172.23.239.124
-spring.data.mongodb.port=27017
-spring.data.mongodb.uri=mongodb://172.23.239.124/order-details
-spring.data.mongodb.username=
-
-#eureka properties
-eureka.client.register-with-eureka=true
-eureka.client.fetch-registry=true
-eureka.client.service-url.defaultZone=http://172.23.239.100:8761/eureka
-
-#prometheus
-management.endpoints.web.exposure.include=*
+spring:
+  application:
+    name: order
+  data:
+    mongodb:
+      database: order-details
+      host: 172.23.239.124
+      port: "27017"
+      uri: mongodb://172.23.239.124/order-details
+      username: ""
+eureka:
+  client:
+    register-with-eureka: "true"
+    fetch-registry: "true"
+    service-url:
+      defaultZone: http://172.23.239.100:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
