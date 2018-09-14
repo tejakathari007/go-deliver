@@ -11,17 +11,17 @@ management:
 zuul:
   routes:
     userprofile:
-      url: http://localhost:8070
+      url: http://172.23.239.114:8070
     book:
-      url: http://localhost:8888
+      url: http://172.23.239.114:8888
     user-login:
-      url: http://localhost:8082
+      url: http://172.23.239.114:8082
     recommendation:
-      url: http://localhost:8092
+      url: http://172.23.239.114:8092
     order:
-      url: http://localhost:8081
+      url: http://172.23.239.121:8081
     logistics:
-      url: http://localhost:8086
+      url: http://172.23.239.121:8086
 eureka:
   client:
     register-with-eureka: "true"
