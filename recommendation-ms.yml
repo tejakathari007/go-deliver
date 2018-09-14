@@ -2,10 +2,6 @@
 server:
   port: "8092"
 spring:
-  data:
-   neo4j:
-     username: neo4j
-     password: godeliver@12
   application:
     name: recommendation
   autoconfigure:
