@@ -10,17 +10,17 @@ management:
         include: '*'
 zuul:
   routes:
-    userprofile-ms:
+    userprofile:
       url: http://172.23.239.114:8070
     book-ms:
       url: http://172.23.239.114:8888
     user-login:
       url: http://172.23.239.114:8082
-    recommendation-ms:
+    recommendation:
       url: http://172.23.239.114:8092
-    order-ms:
+    order:
       url: http://172.23.239.121:8081
-    logistics-ms:
+    logistics:
       url: http://172.23.239.121:8086
 eureka:
   client:
