@@ -12,7 +12,7 @@ zuul:
   routes:
     userprofile:
       url: http://172.23.239.114:8070
-    book-ms:
+    book:
       url: http://172.23.239.114:8888
     user-login:
       url: http://172.23.239.114:8082
