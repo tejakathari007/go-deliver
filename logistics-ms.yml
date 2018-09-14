@@ -1,6 +1,6 @@
 spring:
   application:
-    name: logistics-ms
+    name: logistics
   data:
     mongodb:
       database: logistics
