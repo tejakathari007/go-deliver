@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: order
+    name: order-ms
   data:
     mongodb:
       database: order-details
