@@ -3,14 +3,12 @@ server:
   port: "8092"
 spring:
   data:
-   neo4j:
-     username: neo4j
-     password: godeliver@12
-     uri: bolt://172.23.239.124
+    neo4j:
+      username: neo4j
+      password: godeliver@12
+      uri: bolt://172.23.239.124
   application:
     name: recommendation
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 management:
   endpoints:
     web:
