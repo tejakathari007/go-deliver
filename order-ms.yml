@@ -2,6 +2,8 @@
 spring:
   application:
     name: order
+  kafka:
+    bootstrap-servers: 172.23.239.49:9092  
   data:
     mongodb:
       database: order-details
