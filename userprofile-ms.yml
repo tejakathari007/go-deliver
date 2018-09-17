@@ -9,7 +9,7 @@ spring:
       uri: mongodb://172.23.239.124/userprofile
       username: ""
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: 172.23.239.49:9092
 eureka:
   client:
     register-with-eureka: "true"
