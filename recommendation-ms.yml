@@ -6,7 +6,7 @@ spring:
     neo4j:
       username: neo4j
       password: godeliver@12
-      uri: bolt://172.23.239.124
+      uri: bolt://10.20.1.97
   application:
     name: recommendation
 management:
