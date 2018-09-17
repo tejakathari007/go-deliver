@@ -9,8 +9,6 @@ spring:
       uri: bolt://172.23.239.124
   application:
     name: recommendation
-  kafka:
-    bootstrap-servers: 172.23.239.49:9092
 management:
   endpoints:
     web:
