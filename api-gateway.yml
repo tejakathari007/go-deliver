@@ -11,24 +11,24 @@ management:
 zuul:
   routes:
     userprofile:
-      url: http://172.23.239.114:8070
+      url: http://10.20.1.206:8070
     book:
-      url: http://172.23.239.114:8888
+      url: http://10.20.1.206:8888
     user-login:
-      url: http://172.23.239.114:8082
+      url: http://10.20.1.206:8082
     recommendation:
-      url: http://172.23.239.114:8092
+      url: http://10.20.1.206:8092
     order:
-      url: http://172.23.239.121:8081
+      url: http://10.20.1.206:8081
     logistics:
-      url: http://172.23.239.121:8086
+      url: http://10.20.1.206:8086
     payment-service:
-      url: http://172.23.239.123:9091
+      url: http://10.20.1.206:9091
     cvrp-ms:
-      url: http://172.23.239.123:8084
+      url: http://10.20.1.206:8084
 eureka:
   client:
     register-with-eureka: "true"
     fetch-registry: "true"
     service-url:
-      defaultZone: http://172.23.239.100:8761/eureka
+      defaultZone: http://10.20.1.206:8761/eureka
