@@ -23,9 +23,9 @@ zuul:
     logistics:
       url: http://172.23.239.121:8086
     payment-service:
-      url: http://172.23.239.120:9091
+      url: http://172.23.239.123:9091
     cvrp-ms:
-      url: http://172.23.239.120:8084
+      url: http://172.23.239.123:8084
 eureka:
   client:
     register-with-eureka: "true"
