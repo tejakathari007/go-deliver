@@ -1,6 +1,8 @@
 spring:
   application:
     name: logistics
+  kafka:
+    bootstrap-servers: 172.23.239.49:9092  
   data:
     mongodb:
       database: logistics
