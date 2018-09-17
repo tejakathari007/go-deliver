@@ -4,9 +4,9 @@ spring:
   data:
     mongodb:
       database: userprofile
-      host: 172.23.239.124
+      host: 10.20.1.97
       port: "27017"
-      uri: mongodb://172.23.239.124/userprofile
+      uri: mongodb://10.20.1.97/userprofile
       username: ""
 eureka:
   client:
