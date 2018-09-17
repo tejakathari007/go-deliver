@@ -17,6 +17,6 @@ management:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.23.239.100:8761/eureka
+      defaultZone: http://10.20.1.206:8761/eureka
     register-with-eureka: "true"
     fetch-registry: "true"
