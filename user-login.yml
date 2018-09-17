@@ -11,6 +11,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+  kafka:
+    bootstrap-servers: 172.23.239.49:9092
 eureka:
   client:
     register-with-eureka: "true"
