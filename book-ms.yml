@@ -4,9 +4,9 @@ spring:
   data:
     mongodb:
       database: booksdb
-      host: 172.23.239.124
+      host: 10.20.1.97
       port: "27017"
-      uri: mongodb://172.23.239.124/booksdb
+      uri: mongodb://10.20.1.97/booksdb
       username: ""
 management:
   endpoints:
