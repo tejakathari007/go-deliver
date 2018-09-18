@@ -2,7 +2,7 @@ spring:
   application:
     name: api-gateway
   server:
-    port: "8080"
+    port: "9072"
 management:
   endpoints:
     web:
@@ -11,24 +11,25 @@ management:
 zuul:
   routes:
     userprofile:
-      url: http://10.20.1.206:8070
-    book:
-      url: http://10.20.1.206:8888
+      url: http://10.20.1.206:9073
     user-login:
-      url: http://10.20.1.206:8082
+      url: http://10.20.1.206:9074
     recommendation:
-      url: http://10.20.1.206:8092
+      url: http://10.20.1.206:9075
     order:
-      url: http://10.20.1.206:8081
-    logistics:
-      url: http://10.20.1.206:8086
-    payment-service:
-      url: http://10.20.1.206:9091
+      url: http://10.20.1.206:9076
+    book:
+      url: http://10.20.1.206:9077
     cvrp-ms:
-      url: http://10.20.1.206:8084
+      url: http://10.20.1.206:9078
+    payment-service:
+      url: http://10.20.1.206:9079
+    logistics:
+      url: http://10.20.1.206:9080
+    
 eureka:
   client:
     register-with-eureka: "true"
     fetch-registry: "true"
     service-url:
-      defaultZone: http://10.20.1.206:8761/eureka
+      defaultZone: http://10.20.1.206:9070/eureka
