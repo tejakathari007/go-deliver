@@ -2,7 +2,7 @@ spring:
   application:
     name: api-gateway
   server:
-    port: "9072"
+    port: "9088"
 management:
   endpoints:
     web:
