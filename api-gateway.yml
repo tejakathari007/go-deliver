@@ -23,7 +23,7 @@ zuul:
     cvrp-ms:
       url: http://10.20.1.206:9078
     payment-service:
-      url: http://10.20.1.129:9079
+      url: http://10.20.1.206:9079
     logistics:
       url: http://10.20.1.206:9080
     
